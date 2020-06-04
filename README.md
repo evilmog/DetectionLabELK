@@ -20,7 +20,7 @@ DetectionLabELK is a fork from Chris Long's [DetectionLab](https://github.com/cl
 
 ## Primary Lab Features:
 * [Microsoft Advanced Threat Analytics](https://www.microsoft.com/en-us/cloud-platform/advanced-threat-analytics) is installed on the WEF machine, with the lightweight ATA gateway installed on the DC
-* Windoes Evenet forwarder along with Winlogbeat are pre-installed and all indexes are pre-created on ELK. Technology add-ons for Windows are also preconfigured.
+* Windows Event forwarder along with Winlogbeat are pre-installed and all indexes are pre-created on ELK. Technology add-ons for Windows are also preconfigured.
 * A custom Windows auditing configuration is set via GPO to include command line process auditing and additional OS-level logging
 * [Palantir's Windows Event Forwarding](http://github.com/palantir/windows-event-forwarding)  subscriptions and custom channels are implemented
 * Powershell transcript logging is enabled. All logs are saved to `\\wef\pslogs`
